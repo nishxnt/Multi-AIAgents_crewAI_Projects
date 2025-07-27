@@ -63,3 +63,27 @@ To set up the environment for any project:
 git clone https://github.com/nishxnt/Multi-AIAgents_crewAI_Projects.git
 cd <Project_Folder>
 pip install -r requirements.txt
+
+## Framework Used
+
+All projects are built using **crewAI**, a framework for designing, training, evaluating, and orchestrating multi‑agent AI systems with clear role/task separation through YAML configs (`agents.yaml`, `tasks.yaml`) and support for flows, cost tracing, and production deployment patterns.
+
+---
+
+## Future Scope
+
+- Add more **real-world case studies** (e.g., analytics, BI copilots, agentic RAG, fintech ops).
+- Experiment with **advanced multi-agent coordination strategies** (flows, routers, supervisors, tool-using agents).
+- Explore **LLM routing / model specialization** (open-weight vs API LLMs, cost–latency–quality trade-offs).
+- Integrate **human-feedback loops (RLAIF/RLHF)** and reward models for continuous improvement.
+- Build a stronger **evaluation & observability harness** (cost, latency, success rate, calibration).
+- Hardening for **production**: Dockerization, CI/CD, feature flags, secrets management, and deployment on Ray Serve/FastAPI.
+
+---
+
+## Author
+
+**Nishant Gupta**  
+Exploring multi-agent systems with crewAI to design efficient, collaborative AI solutions that are production-ready and cost-aware.
+
+(GitHub: [@nishxnt](https://github.com/nishxnt))
