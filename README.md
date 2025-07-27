@@ -63,11 +63,14 @@ To set up the environment for any project:
 git clone https://github.com/nishxnt/Multi-AIAgents_crewAI_Projects.git
 cd <Project_Folder>
 pip install -r requirements.txt
+```
+
+---
 
 ## Framework Used
 
 All projects are built using **crewAI**, a framework for designing, training, evaluating, and orchestrating multi‑agent AI systems with clear role/task separation through YAML configs (`agents.yaml`, `tasks.yaml`) and support for flows, cost tracing, and production deployment patterns.
-```
+
 ---
 
 ## Future Scope
